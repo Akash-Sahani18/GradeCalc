@@ -1,7 +1,6 @@
 import java.util.Scanner;
   public class GradeCalculator {
     public void enterMarks(){
-
         System.out.println("Enter the marks obtained!!");
           Scanner sc = new Scanner(System.in);
 
@@ -64,7 +63,6 @@ import java.util.Scanner;
           else{
             System.out.println("Enter the valid Marks ");
           }
-
           //Marks Obtained in Maths
           System.out.print("Enter the Marks of Maths: ");
           float maths = sc.nextFloat();
@@ -94,7 +92,6 @@ import java.util.Scanner;
           else{
             System.out.println("Enter the valid Marks");
           }
-
             //Total marks Obtained
             float totalMarks = phy + chem + maths;
             System.out.println("Total Marks Obtained: "+totalMarks);
@@ -139,12 +136,9 @@ import java.util.Scanner;
           return;
          }     
     }
-    public static void main(String args[]){
-          
+    public static void main(String args[]){  
         GradeCalculator gc = new GradeCalculator();
         gc.enterMarks();
-        System.out.println("Thank You!!");
-          
+        System.out.println("Thank You!!");     
     }
-    
 }
