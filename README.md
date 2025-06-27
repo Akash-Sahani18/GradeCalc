@@ -89,7 +89,7 @@ Overall Grade: A+
 - **Learn recursive method calls for program continuation**
 
 ## 👨‍💻 Author
-**Akash Sahani**
+*Akash Sahani*
 
 📫 [GitHub](https://github.com/Akash-Sahani18) | [LinkedIn](https://www.linkedin.com/in/akash-sahani-440147243)
 
