@@ -1,5 +1,5 @@
-  import java.util.Scanner;
-public class GradeCalculator {
+import java.util.Scanner;
+  public class GradeCalculator {
     public void enterMarks(){
 
         System.out.println("Enter the marks obtained!!");
@@ -7,7 +7,7 @@ public class GradeCalculator {
 
           //Marks obtained in Physics
           System.out.print("Enter the Marks of Physics: "); 
-          float phy = sc.nextInt();
+          float phy = sc.nextFloat();
 
           //Grades in Physics
           if(phy>=90 && phy<=100)
